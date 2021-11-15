@@ -8,7 +8,6 @@ public class facturationSansCarte extends facturation {
 	        } else {
 	            this.montant = montant;
 	            this.payment = payment;
-	            System.out.println("Le payement par " + payment + " a été selectionné avec succès ");
 	            }
 
 	}

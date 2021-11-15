@@ -1,6 +1,6 @@
 
 public class cartePoint extends carte {
-
+	
 	int nombrePoint;
 
 
@@ -9,6 +9,11 @@ public class cartePoint extends carte {
 		this.nombrePoint = nombrePoint;
 	}
 
+
+	@Override
+	public String toString() {
+		return "cartePoint [nombrePoint=" + nombrePoint + ", nomClient=" + nomClient + ", adresse=" + adresse + "]";
+	}
 
 
 }
